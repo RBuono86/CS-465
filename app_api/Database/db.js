@@ -49,5 +49,5 @@ process.on('SIGTERM', () => {
   });
 });
 
-
-require('./travlr');
+connect();
+require('./models/travlr');
