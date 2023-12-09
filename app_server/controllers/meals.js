@@ -1,9 +1,12 @@
-/* GET Meals View */
+const fs = require('fs');
+const food = JSON.parse(fs.readFileSync('./data/meals.json','utf8'));
+
+/* Get Meals view */
 const meals = (req, res) => {
-    pageTitle = process.env.npm_package_description + " - Meals"; // process.env.npm_package_description can only be accessed if you use 'npm start' *nodemon will not work
-    res.render("meals", { title: pageTitle });
-  };
-  
-  module.exports = {
-    meals,
-  };
+    const pageTitle = 'Travlr Getaways - Meals';
+    res.render('meals', { title: pageTitle, food});
+};
+
+module.exports = {
+    meals
+};

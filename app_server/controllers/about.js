@@ -1,9 +1,12 @@
-/* GET About View */
+const fs = require('fs');
+const info = JSON.parse(fs.readFileSync('./data/about.json','utf8'));
+
+/* Get About view */
 const about = (req, res) => {
-    pageTitle = process.env.npm_package_description + " - About"; // process.env.npm_package_description can only be accessed if you use 'npm start' *nodemon will not work
-    res.render("about", { title: pageTitle });
-  };
-  
-  module.exports = {
-    about,
-  };
+    const pageTitle = 'Travlr Getaways - About';
+    res.render('about', { title: pageTitle, info});
+};
+
+module.exports = {
+    about
+};

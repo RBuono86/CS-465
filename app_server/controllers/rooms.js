@@ -1,9 +1,12 @@
-/* GET Rooms View */
+const fs = require('fs');
+const booking = JSON.parse(fs.readFileSync('./data/rooms.json','utf8'));
+
+/* Get Rooms view */
 const rooms = (req, res) => {
-    pageTitle = process.env.npm_package_description + " - Rooms"; // process.env.npm_package_description can only be accessed if you use 'npm start' *nodemon will not work
-    res.render("rooms", { title: pageTitle });
-  };
-  
-  module.exports = {
-    rooms,
-  };
+    const pageTitle = 'Travlr Getaways - Rooms';
+    res.render('rooms', { title: pageTitle, booking});
+};
+
+module.exports = {
+    rooms
+};

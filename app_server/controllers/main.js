@@ -1,7 +1,9 @@
-/* GET homepage */
+/* Get home view */
 const index = (req, res) => {
-    res.render('index', {title: 'Travlr Getaways'});
+    const pageTitle = 'Travlr Getaways - Home';
+    res.render('index', { title: pageTitle});
 };
+
 module.exports = {
     index
 };
