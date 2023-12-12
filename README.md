@@ -29,7 +29,13 @@ Backend SPA (using Angular, Express, Node.js, and MongoDB):
 JSON is a standardized way to format object data that can be easily read by Javascript to form it into a literal Javascript object. This makes it easy for Javascript to take the data and form it into a object in the Javascript language. This ties frontend and backend development together by creating a way for data/ Javascript objects to be stored on the backend and used in different situations based on what the frontend is requesting the data for. This also means that the data just has to be stored once but can be pulled and used in a variety of ways.
 
 ### Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
-An instance that code was refactored to improve functionality and efficiency while I was coding is when I was creating the trip card versus trip list components. Having two seperate components that render the same information is inefficient, but having the each trip being rendered separately but part of the whole works better in the overall functionality of the site. Reusing UI components is benificial because it decreases overall size of an application, makes the development process quicker, and decreases the chance of errors and vulnerabilities introduced into the system (provided the component is secure).
+Throughout the development process, we consistently refactored our code to improve functionality and efficiency. By doing so, we achieved the following benefits from reusable UI components:
+
+• Consistency: Maintaining a consistent look and behavior across the application.
+
+• Efficiency: Saving time by reusing components for similar UI elements.
+
+• Maintenance: Simplifying updates and bug fixes, with changes made in a single location.
 
 ## Testing
 
