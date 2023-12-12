@@ -2,6 +2,9 @@
 
 ![image](https://github.com/RBuono86/CS-465/assets/107370210/0eeebea1-ad02-4fb5-afe8-a169b2997154)
 
+## README
+Welcome to the README for the Travlr full-stack web application. Travlr is a comprehensive web platform that caters to customers and administrators, providing a seamless and secure travel experience. In the final iteration, we have incorporated robust security features for admin login authentication. This README reflects on the architecture, functionality, testing, and personal growth during the development of the Travlr project.
+
 
 ## Architecture
 
