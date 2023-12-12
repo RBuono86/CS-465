@@ -11,12 +11,17 @@ Welcome to the README for the Travlr full-stack web application. Travlr is a com
 ### Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 During the the full stack project development, there were a few different types of front end code that were used in different parts of the application. The customer facing site was developed originally in Express HTML and then converted over to a .hbs view to help with rendering speeds by not having to fully load every component of the site at each refresh. HTML is static and client facing, which means it can;t interact with backend databases to dynamically update information. Javascript is a frontend and backend coding language that is used to add dynamic elements to the webpage. This was used to pull trip information from the MongoDB database so that the page can change dynamically based on user interaction. A single-page application is a website that doesn't fully refresh the page based on user interactions like an HTML page would. This is particularlly useful in giving the website a local/native application feel when interacting with the applicaiton itself.
 
-Frontend Customer-facing website:
+Frontend Customer-Facing website:
 
 ![image](https://github.com/RBuono86/CS-465/assets/107370210/f9f85abe-a884-4ec8-bcd6-fa7c9e0f9bdb)
 
 ### Why did the backend use a NoSQL MongoDB database?
 The backend used a NoSQL MongoDB database because of its ease of modifying schema based on scaling and functionality changes, as well as the ability to rapidly scale horizontally because of its non-relational nature of the database.
+
+Backend SPA (using Angular, Express, Node.js, and MongoDB):
+
+![image](https://github.com/RBuono86/CS-465/assets/107370210/dfb1b783-a5c5-4cb6-89de-fb8ad3456400)
+![image](https://github.com/RBuono86/CS-465/assets/107370210/8e2961eb-fbfd-4379-bff0-3e1b0b2d65c3)
 
 ## Functionality
 
