@@ -29,3 +29,18 @@ There are a few ways of testing endpoints prior to adding security. The first is
 
 ### Explain your understanding of methods, endpoints, and security in a full stack application.
 
+## Reflection
+Completing this course and the Travlr project has had a significant impact on reaching our professional goals. We have honed the following skills:
+
+• Full-stack Development: Proficiency in both frontend and backend technologies.
+
+• Database Management: In-depth understanding of NoSQL databases like MongoDB.
+
+• API Development: Creating endpoints, implementing security measures, and testing thoroughly.
+
+• Problem-Solving and Debugging: Improved skills in identifying and resolving issues efficiently.
+
+This course has made us more marketable candidates in our field, enabling us to take on roles that require a diverse skill set. Travlr showcases our ability to develop a secure and feature-rich full-stack application, furthering our professional journey in the world of web development.
+
+Thank you for exploring the Travlr web application. We hope you enjoy using it as much as we enjoyed creating it.
+
